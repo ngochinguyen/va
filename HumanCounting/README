@@ -1,0 +1,10 @@
+- Source code: *.cpp
+- File Make: CMakelists.txt (for each program required)
+- Video Test: *.avi
+
+-------------
+In order to make and install, following commands:
+$ cmake .
+$ make
+$ ./ (run application)
+
