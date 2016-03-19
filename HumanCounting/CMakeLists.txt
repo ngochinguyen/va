@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
 project( BackgroundModeling )
 find_package( OpenCV REQUIRED )
-add_executable( BackgroundModeling bg_sub.cpp )
+add_executable( BackgroundModeling bs.cpp )
 target_link_libraries( BackgroundModeling ${OpenCV_LIBS})
